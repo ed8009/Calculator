@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-
 @interface BrainCalculator : NSObject
 
 + (id)sharedMyManager;
@@ -18,6 +17,5 @@
 - (void)setRusult;
 - (void)backSpace;
 - (NSString *)setDisplay;
-
 
 @end
